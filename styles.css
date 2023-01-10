@@ -1,0 +1,17 @@
+.flex-container{
+    display:flex;
+    background-color: #1F2937;
+    height: 300px;
+    gap: 100px;
+    margin-left: auto;
+    color: aliceblue;
+    font-size: 24px;
+}
+
+.HL{
+    margin-left: auto;
+}
+
+.Hl1 > div{
+margin-right: auto;
+}
