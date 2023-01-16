@@ -1,17 +1,55 @@
-.flex-container{
-    display:flex;
-    background-color: #1F2937;
-    height: 300px;
-    gap: 100px;
-    margin-left: auto;
-    color: aliceblue;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.first-section{
+   background-color: #1F2937;
+    
+}
+
+#HeaderLogo{
     font-size: 24px;
+    color:#f9faf8;
 }
 
-.HL{
-    margin-left: auto;
+.navbar{
+    display:flex ;
+    flex-direction: row;
 }
 
-.Hl1 > div{
-margin-right: auto;
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.header-link{
+    font-size: 18px;
+    color: #f9faf8;
+    margin:10px;
+}
+
+.navbar-right,.navbar-left{
+    display:flex;
+    width:50%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.content-left,.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
