@@ -46,10 +46,34 @@ h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+
+}
+
+.content{
+    display:flex;
+    flex-direction:row;
+    margin: 50px;
+    padding: 50px;
 }
 
 .content-left,.content-right{
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
+    flex-direction: column;
+    width: 50%;
+    flex-wrap: wrap;
 }
+
+.btn-first{
+    background-color:#3882F6 ;
+   border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* allows to set width and height*/
+    border-radius: 10px;
+  }
+
