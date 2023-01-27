@@ -84,9 +84,19 @@ align-self: center;
 justify-content: center;
 }
 
- .flexcontainers{
-    width: 300px;
-    border: 15px solid green;
+.box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #1F2937;
     padding: 50px;
-    margin: 20px;
-  }
+    margin: 50px;
+    border-radius: 10px;
+    }
+
+.flex-containers{
+    display: flex;
+    direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
